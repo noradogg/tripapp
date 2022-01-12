@@ -1,0 +1,327 @@
+[
+  {
+    "model": "api.member",
+    "pk": 1,
+    "fields": {
+      "name": "maruyama tomoaki",
+      "username": "maru_t",
+      "email": "t@ex.com",
+      "password": "password",
+      "created_time": "2021-09-25 05:57:00.459392+00:00",
+      "updated_time": "2021-09-25 05:57:00.459392+00:00"
+    }
+  },
+  {
+    "model": "api.member",
+    "pk": 2,
+    "fields": {
+      "name": "maruyama masayuki",
+      "username": "maru_ma",
+      "email": "ma@ex.com",
+      "password": "password",
+      "created_time": "2021-09-25 05:57:00.459392+00:00",
+      "updated_time": "2021-09-25 05:57:00.459392+00:00"
+    }
+  },
+  {
+    "model": "api.member",
+    "pk": 3,
+    "fields": {
+      "name": "maruyama michiko",
+      "username": "maru_mi",
+      "email": "mi@ex.com",
+      "password": "password",
+      "created_time": "2021-09-25 05:57:00.459392+00:00",
+      "updated_time": "2021-09-25 05:57:00.459392+00:00"
+    }
+  },
+  {
+    "model": "api.member",
+    "pk": 4,
+    "fields": {
+      "name": "maruyama nanako",
+      "username": "maru_n",
+      "email": "n@ex.com",
+      "password": "password",
+      "created_time": "2021-09-25 05:57:00.459392+00:00",
+      "updated_time": "2021-09-25 05:57:00.459392+00:00"
+    }
+  },
+  {
+    "model": "api.trip",
+    "pk": 1,
+    "fields": {
+      "date": "2018-01-14",
+      "user_id": 1,
+      "title": "AAA",
+      "note": "Comment1",
+      "created_time": "2021-09-25 05:57:00.459392+00:00",
+      "updated_time": "2021-09-25 05:57:00.459392+00:00"
+    }
+  },
+  {
+    "model": "api.trip",
+    "pk": 2,
+    "fields": {
+      "date": "2018-01-15",
+      "user_id": 2,
+      "title": "BBB",
+      "note": "Comment2",
+      "created_time": "2021-09-25 05:57:00.459392+00:00",
+      "updated_time": "2021-09-25 05:57:00.459392+00:00"
+    }
+  },
+  {
+    "model": "api.trip",
+    "pk": 3,
+    "fields": {
+      "date": "2018-01-16",
+      "user_id": 3,
+      "title": "CCC",
+      "note": "Comment3",
+      "created_time": "2021-09-25 05:57:00.459392+00:00",
+      "updated_time": "2021-09-25 05:57:00.459392+00:00"
+    }
+  },
+  {
+    "model": "api.trip",
+    "pk": 4,
+    "fields": {
+      "date": "2018-01-17",
+      "user_id": 4,
+      "title": "DDD",
+      "note": "Comment4",
+      "created_time": "2021-09-25 05:57:00.459392+00:00",
+      "updated_time": "2021-09-25 05:57:00.459392+00:00"
+    }
+  },
+  {
+    "model": "api.action",
+    "pk": 1,
+    "fields": {
+      "trip_id": 1,
+      "date": "2021-09-25 05:57:00.459392+00:00",
+      "place": "皇居",
+      "address": "東京都千代田区千代田1-1",
+      "note": "皇居ランナーめっちゃおる",
+      "created_time": "2021-09-25 05:57:00.459392+00:00",
+      "updated_time": "2021-09-25 05:57:00.459392+00:00"
+    }
+  },
+  {
+    "model": "api.action",
+    "pk": 2,
+    "fields": {
+      "trip_id": 2,
+      "date": "2021-09-25 05:57:00.459392+00:00",
+      "place": "東日本旅客鉄道株式会社",
+      "address": "東京都渋谷区代々木2-2-2",
+      "note": "社長はペンギン",
+      "created_time": "2021-09-25 05:57:00.459392+00:00",
+      "updated_time": "2021-09-25 05:57:00.459392+00:00"
+    }
+  },
+  {
+    "model": "api.action",
+    "pk": 3,
+    "fields": {
+      "trip_id": 3,
+      "date": "2021-09-25 05:57:00.459392+00:00",
+      "place": "Empire State Building",
+      "address": "20 W 34th St, New York, NY",
+      "note": "This building is the most popular spot in New York.",
+      "created_time": "2021-09-25 05:57:00.459392+00:00",
+      "updated_time": "2021-09-25 05:57:00.459392+00:00"
+    }
+  },
+  {
+    "model": "api.action",
+    "pk": 4,
+    "fields": {
+      "trip_id": 1,
+      "date": "2021-09-25 05:57:00.459392+00:00",
+      "place": "皇居2",
+      "address": "東京都千代田区千代田1-1",
+      "note": "皇居ランナーめっちゃおる",
+      "created_time": "2021-09-25 05:57:00.459392+00:00",
+      "updated_time": "2021-09-25 05:57:00.459392+00:00"
+    }
+  },
+  {
+    "model": "api.action",
+    "pk": 5,
+    "fields": {
+      "trip_id": 1,
+      "date": "2021-09-25 05:57:00.459392+00:00",
+      "place": "皇居3",
+      "address": "東京都千代田区千代田1-1",
+      "note": "皇居ランナーめっちゃおる",
+      "created_time": "2021-09-25 05:57:00.459392+00:00",
+      "updated_time": "2021-09-25 05:57:00.459392+00:00"
+    }
+  },
+  {
+    "model": "api.action",
+    "pk": 6,
+    "fields": {
+      "trip_id": 3,
+      "date": "2021-09-25 05:57:00.459392+00:00",
+      "place": "Empire State Building2",
+      "address": "20 W 34th St, New York, NY",
+      "note": "This building is the most popular spot in New York.",
+      "created_time": "2021-09-25 05:57:00.459392+00:00",
+      "updated_time": "2021-09-25 05:57:00.459392+00:00"
+    }
+  },
+  {
+    "model": "api.action",
+    "pk": 7,
+    "fields": {
+      "trip_id": 3,
+      "date": "2021-09-25 05:57:00.459392+00:00",
+      "place": "Empire State Building3",
+      "address": "20 W 34th St, New York, NY",
+      "note": "This building is the most popular spot in New York.",
+      "created_time": "2021-09-25 05:57:00.459392+00:00",
+      "updated_time": "2021-09-25 05:57:00.459392+00:00"
+    }
+  },
+  {
+    "model": "api.action",
+    "pk": 8,
+    "fields": {
+      "trip_id": 3,
+      "date": "2021-09-25 05:57:00.459392+00:00",
+      "place": "Empire State Building4",
+      "address": "20 W 34th St, New York, NY",
+      "note": "This building is the most popular spot in New York.",
+      "created_time": "2021-09-25 05:57:00.459392+00:00",
+      "updated_time": "2021-09-25 05:57:00.459392+00:00"
+    }
+  },
+  {
+    "model": "api.action",
+    "pk": 9,
+    "fields": {
+      "trip_id": 3,
+      "date": "2021-09-25 05:57:00.459392+00:00",
+      "place": "Empire State Building5",
+      "address": "20 W 34th St, New York, NY",
+      "note": "This building is the most popular spot in New York.",
+      "created_time": "2021-09-25 05:57:00.459392+00:00",
+      "updated_time": "2021-09-25 05:57:00.459392+00:00"
+    }
+  },
+  {
+    "model": "api.comment",
+    "pk": 1,
+    "fields": {
+      "trip_id": 3,
+      "user_id": 1,
+      "comment": "入るの時間かかりすぎ",
+      "created_time": "2021-09-25 05:57:00.459392+00:00",
+      "updated_time": "2021-09-25 05:57:00.459392+00:00"
+    }
+  },
+  {
+    "model": "api.comment",
+    "pk": 2,
+    "fields": {
+      "trip_id": 2,
+      "user_id": 2,
+      "comment": "JR東日本本社ビル",
+      "created_time": "2021-09-25 05:57:00.459392+00:00",
+      "updated_time": "2021-09-25 05:57:00.459392+00:00"
+    }
+  },
+  {
+    "model": "api.favorite",
+    "pk": 1,
+    "fields": {
+      "trip_id": 1,
+      "user_id": 1,
+      "created_time": "2021-09-25 05:57:00.459392+00:00",
+      "updated_time": "2021-09-25 05:57:00.459392+00:00"
+    }
+  },
+  {
+    "model": "api.favorite",
+    "pk": 2,
+    "fields": {
+      "trip_id": 3,
+      "user_id": 4,
+      "created_time": "2021-09-25 05:57:00.459392+00:00",
+      "updated_time": "2021-09-25 05:57:00.459392+00:00"
+    }
+  },
+  {
+    "model": "api.favorite",
+    "pk": 3,
+    "fields": {
+      "trip_id": 1,
+      "user_id": 2,
+      "created_time": "2021-09-25 05:57:00.459392+00:00",
+      "updated_time": "2021-09-25 05:57:00.459392+00:00"
+    }
+  },
+  {
+    "model": "api.favorite",
+    "pk": 4,
+    "fields": {
+      "trip_id": 3,
+      "user_id": 2,
+      "created_time": "2021-09-25 05:57:00.459392+00:00",
+      "updated_time": "2021-09-25 05:57:00.459392+00:00"
+    }
+  },
+  {
+    "model": "api.following",
+    "pk": 1,
+    "fields": {
+      "user_id": 1,
+      "following_id": 2,
+      "created_time": "2021-09-25 05:57:00.459392+00:00",
+      "updated_time": "2021-09-25 05:57:00.459392+00:00"
+    }
+  },
+  {
+    "model": "api.following",
+    "pk": 2,
+    "fields": {
+      "user_id": 1,
+      "following_id": 3,
+      "created_time": "2021-09-25 05:57:00.459392+00:00",
+      "updated_time": "2021-09-25 05:57:00.459392+00:00"
+    }
+  },
+  {
+    "model": "api.following",
+    "pk": 3,
+    "fields": {
+      "user_id": 1,
+      "following_id": 4,
+      "created_time": "2021-09-25 05:57:00.459392+00:00",
+      "updated_time": "2021-09-25 05:57:00.459392+00:00"
+    }
+  },
+  {
+    "model": "api.following",
+    "pk": 4,
+    "fields": {
+      "user_id": 2,
+      "following_id": 4,
+      "created_time": "2021-09-25 05:57:00.459392+00:00",
+      "updated_time": "2021-09-25 05:57:00.459392+00:00"
+    }
+  },
+  {
+    "model": "api.following",
+    "pk": 5,
+    "fields": {
+      "user_id": 3,
+      "following_id": 1,
+      "created_time": "2021-09-25 05:57:00.459392+00:00",
+      "updated_time": "2021-09-25 05:57:00.459392+00:00"
+    }
+  }
+]

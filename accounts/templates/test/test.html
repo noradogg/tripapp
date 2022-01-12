@@ -1,0 +1,16 @@
+<!doctype html>
+{% extends "base.html" %}
+
+{% block title %}テストだよ{% endblock %}
+
+{% block content %}
+<h2>テストだよ</h2>
+{% if user.is_authenticated %}
+ようこそ {{ user.get_username }} さん
+会員限定だよん！！
+<p><a href="{% url 'logout' %}">ログアウト</a></p>
+{% else %}
+<p><a href="{% url 'login' %}">ログイン</a></p>
+<p><a href="{% url 'signup' %}">signup</a></p>
+{% endif %}
+{% endblock %}

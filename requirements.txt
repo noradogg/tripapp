@@ -1,0 +1,8 @@
+Django>=2.2.4
+mysqlclient==1.4.6
+django-bootstrap-form>=3.2.1
+PyMySQL>=0.7.11
+pillow
+django-rest-framework
+django-filter
+django-allauth
